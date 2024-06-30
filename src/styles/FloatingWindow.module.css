@@ -1,0 +1,23 @@
+/** @format */
+
+.window {
+  position: fixed;
+  width: max-content;
+  height: max-content;
+  top: 15vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--bg-color);
+  border-radius: 6px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.8;
+}

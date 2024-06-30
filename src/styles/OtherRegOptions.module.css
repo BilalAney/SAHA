@@ -1,0 +1,66 @@
+/** @format */
+
+.window button {
+  width: 50%;
+  /* max-width: ; */
+  max-height: 50px;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  align-items: center;
+  justify-items: center;
+  padding: 8px;
+
+  /* justify-content: space-around; */
+}
+
+.window button img {
+  width: 30px;
+}
+
+.github {
+  background-color: #24292f;
+  border: 1px solid #24292f;
+}
+
+.google {
+  background-color: #db4437;
+  border: 1px solid #db4437;
+}
+
+.facebook {
+  background-color: #4267b2;
+  border: 1px solid #4267b2;
+}
+
+.telegram {
+  background-color: #229ed9;
+  border: 1px solid #229ed9;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+@media screen and (width < 600px) {
+  .window {
+    width: 100%;
+  }
+}
+
+@media screen and (width < 600px) {
+  .window {
+    width: 85%;
+  }
+}
+
+@media screen and (width < 1000px) and (height < 600px) and (orientation = landscape) {
+  .window {
+    width: 85%;
+    height: 85%;
+  }
+}

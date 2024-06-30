@@ -1,0 +1,19 @@
+/** @format */
+
+.board {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  gap: 20px;
+  /* width: inherit; */
+  height: max-content;
+  padding: 8%;
+}
+
+@media screen and (width < 1150px) {
+  .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

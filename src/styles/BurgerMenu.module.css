@@ -1,0 +1,41 @@
+/** @format */
+
+.burgerCtn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.burgerCtn img {
+  transition: all 0.5s;
+}
+
+.burgerCtn img:hover {
+  cursor: pointer;
+}
+
+.menuList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-2);
+  border-radius: 8px;
+  position: absolute;
+  width: max-content;
+  padding: 12px;
+  bottom: -140%;
+  left: -180%;
+}
+
+.menuList li {
+  border-bottom: 1px solid var(--bg-color);
+  padding: 8px;
+}
+
+.menuList li a {
+  text-decoration: none;
+}
+/* color: #fff; */

@@ -1,0 +1,176 @@
+{
+  "data": {
+    "recent": [
+      {
+        "id": "SS123455AB",
+        "name": "Awesome Project",
+        "logo": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "dateCreated": "2024-06-18",
+        "developer": "John Doe",
+        "rating": 4.2,
+        "projectOverviewLink": "https://awesomeproject.com",
+        "githubLink": "https://github.com/johndoe/awesome-project",
+        "tags": ["Created alone", "Open Source"],
+        "extra": {},
+        "visits": 832469,
+        "caption": "An open-source project created solo by John Doe."
+      },
+      {
+        "id": "SS567855CD",
+        "name": "Coming Soon Project",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-06-15",
+        "developer": "Jane Smith",
+        "rating": 3.8,
+        "projectOverviewLink": "https://comingsoonproject.com",
+        "githubLink": "https://github.com/janesmith/coming-soon-project",
+        "tags": ["Coming soon", "Copyright"],
+        "extra": {},
+        "visits": 654372,
+        "caption": "A project by Jane Smith, coming soon with copyright protection."
+      },
+      {
+        "id": "SS901255EF",
+        "name": "E-commerce Platform",
+        "logo": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "dateCreated": "2024-06-10",
+        "developer": "Dev Team Alpha",
+        "rating": 4.8,
+        "projectOverviewLink": "https://ecommerce.com/about",
+        "githubLink": "https://github.com/devteamalpha/ecommerce-platform",
+        "tags": ["Backend focused", "Large project"],
+        "extra": {},
+        "visits": 921346,
+        "caption": "A large, backend-focused e-commerce platform by Dev Team Alpha."
+      },
+      {
+        "id": "SS234555GH",
+        "name": "Mobile Game",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-05-20",
+        "developer": "Alice & Bob Studios",
+        "rating": 3.7,
+        "projectOverviewLink": "https://mobilegame.com",
+        "githubLink": "https://github.com/aliceandbob/mobilegame",
+        "tags": ["Unity Engine", "Casual game"],
+        "extra": {},
+        "visits": 543284,
+        "caption": "A casual game developed with Unity by Alice & Bob Studios."
+      },
+      {
+        "id": "SS567855IJ",
+        "name": "Social Media Platform",
+        "logo": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "dateCreated": "2024-04-12",
+        "developer": "Confidential",
+        "rating": 4.9,
+        "projectOverviewLink": "https://socialmediaplatform.com",
+        "githubLink": "https://github.com/confidential/social-media-platform",
+        "tags": ["NDA", "Large scale"],
+        "extra": {},
+        "visits": 768492,
+        "caption": "A large-scale social media platform under NDA."
+      },
+      {
+        "id": "SS890155KL",
+        "name": "Personal Website",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-06-19",
+        "developer": "You",
+        "rating": 4.7,
+        "projectOverviewLink": "https://yourwebsite.com",
+        "githubLink": "https://github.com/you/your-website",
+        "tags": ["Under development", "Learning project"],
+        "extra": {},
+        "visits": 512637,
+        "caption": "A personal website under development for learning purposes."
+      }
+    ],
+    "top": [
+      {
+        "id": "TT123455MN",
+        "name": "E-commerce Platform",
+        "logo": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "dateCreated": "2024-06-10",
+        "developer": "Dev Team Alpha",
+        "rating": 4.8,
+        "projectOverviewLink": "https://ecommerce.com/about",
+        "githubLink": "https://github.com/devteamalpha/ecommerce-platform",
+        "tags": ["Backend focused", "Large project"],
+        "extra": {
+          "reason": "Most popular this month"
+        },
+        "visits": 903846,
+        "caption": "A popular, large, backend-focused e-commerce platform."
+      },
+      {
+        "id": "TT567855OP",
+        "name": "Mobile Game",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-05-20",
+        "developer": "Alice & Bob Studios",
+        "rating": 3.7,
+        "projectOverviewLink": "https://mobilegame.com",
+        "githubLink": "https://github.com/aliceandbob/mobilegame",
+        "tags": ["Unity Engine", "Casual game"],
+        "extra": {
+          "reason": "Highest user engagement"
+        },
+        "visits": 785340,
+        "caption": "A casual mobile game with high engagement by Alice & Bob."
+      }
+    ],
+    "popular": [
+      {
+        "id": "PP123455QR",
+        "name": "Awesome Project",
+        "logo": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "dateCreated": "2024-06-18",
+        "developer": "John Doe",
+        "rating": 4.2,
+        "projectOverviewLink": "https://awesomeproject.com",
+        "githubLink": "https://github.com/johndoe/awesome-project",
+        "tags": ["Created alone", "Open Source"],
+        "extra": {
+          "reason": "Trending on social media"
+        },
+        "visits": 948320,
+        "caption": "John Doe's solo open-source project, trending online."
+      },
+      {
+        "id": "PP567855ST",
+        "name": "Coming Soon Project",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-06-15",
+        "developer": "Jane Smith",
+        "rating": 3.8,
+        "projectOverviewLink": "https://comingsoonproject.com",
+        "githubLink": "https://github.com/janesmith/coming-soon-project",
+        "tags": ["Coming soon", "Copyright"],
+        "extra": {
+          "reason": "Generating a lot of buzz"
+        },
+        "visits": 502376,
+        "caption": "Jane Smith's upcoming project is generating buzz."
+      }
+    ],
+    "last": [
+      {
+        "id": "LL890155UV",
+        "name": "Personal Website",
+        "logo": "https://images.pexels.com/photos/18104/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+        "dateCreated": "2024-06-19",
+        "developer": "You",
+        "rating": 4.7,
+        "projectOverviewLink": "https://yourwebsite.com",
+        "githubLink": "https://github.com/you/your-website",
+        "tags": ["Under development", "Learning project"],
+        "extra": {
+          "reason": "Recently added"
+        },
+        "visits": 593710,
+        "caption": "A personal site under development for learning, recently added."
+      }
+    ]
+  }
+}

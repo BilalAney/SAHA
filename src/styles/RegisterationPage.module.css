@@ -1,0 +1,11 @@
+/** @format */
+
+.page {
+  height: 100%;
+  width: 100%;
+  display: inherit;
+  place-content: inherit;
+  place-items: inherit;
+  flex-direction: column;
+  gap: 8%;
+}

@@ -1,0 +1,80 @@
+/** @format */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  gap: 4px;
+  background-color: var(--bg-color);
+  padding: 12px;
+  border-radius: 8px;
+  width: 33%;
+  height: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  overflow-y: auto;
+}
+
+.form input,
+.form select {
+  max-height: 25px;
+  width: 100%;
+}
+
+.form label {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.nameCtn {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  width: 100%;
+}
+
+.nameCtn label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form fieldset {
+  width: 100%;
+  padding: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: auto;
+  align-self: center;
+}
+
+@media screen and (width < 600px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (width < 600px) {
+  .form {
+    width: 85%;
+  }
+}
+
+@media screen and (width < 1000px) and (height < 600px) and (orientation = landscape) {
+  .form {
+    width: 85%;
+    height: 85%;
+  }
+}
