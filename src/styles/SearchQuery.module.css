@@ -1,0 +1,25 @@
+/** @format */
+
+.searchQuery {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0;
+  width: 30%;
+  height: 100%;
+  align-self: center;
+}
+
+.btn {
+  /* position: absolute; */
+  margin: 0;
+}
+
+.searchQuery input {
+  width: 100%;
+  height: inherit;
+  margin: 0;
+  padding: 9px;
+}

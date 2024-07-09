@@ -7,6 +7,8 @@ const context = createContext();
 
 const initialState = {
   data: {},
+  filteredData: [],
+  searchQuery: "",
   state: "",
 };
 
@@ -24,6 +26,9 @@ function reducer(state, action) {
 
     case "set_failed":
       return { ...state, state: action.payload };
+
+    case "set_query":
+      return { ...state, searchQuery: action.payload };
 
     default:
       throw new Error("Unknown action type");
@@ -52,6 +57,8 @@ function ProjectsProvider({ children }) {
     }
     fetchProjects();
   }, []);
+
+  //TODO: Optimize the context. add the value to a useMemo before passing it.
 
   return (
     <context.Provider

@@ -18,7 +18,7 @@ const menuItems = (
       <NavLink>Settings</NavLink>
     </li>
     <li>
-      {/** TODO:: Here the account avatar... by clicking it, he account settings will appear */}
+      {/** TODO:: Here the account avatar... by clicking it, The account settings will appear */}
     </li>
   </>
 );
